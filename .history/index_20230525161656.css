@@ -7,16 +7,18 @@
 .main {
   width: 100%;
   min-height: 100vh;
-  padding: 21px 246px 173px 122px;
+  padding: 187px 230px 173px 122px;
   display: flex;
   flex-direction: column;
 }
 
 .top {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.bottom {
+.bot {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,6 +27,7 @@
 
 .box {
   width: 483px;
+  height: 200px;
   background-color: #1e4681;
   padding: 19px 19px 26px 26px;
 }
@@ -49,7 +52,7 @@
   color: white;
 }
 
- ul li {
+.box1 ul li {
   list-style-type: none;
   font-family: "Roboto";
   font-style: normal;
@@ -61,17 +64,19 @@
 }
 
 .logo {
-  margin-bottom: 97px;
+  position: absolute;
+  left: 121px;
+  top: 21px;
   width: 112px;
   height: 66px;
 }
 
- ul {
+.box1 ul {
   display: flex;
   align-items: center;
 }
 
-ul li p {
+.box1 ul li p {
   margin-left: 8px;
 }
 
@@ -86,16 +91,11 @@ ul li p {
   margin-bottom: 26px;
 }
 
-.text {
+.yazi {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   width: 414px;
-}
-.collaj{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }

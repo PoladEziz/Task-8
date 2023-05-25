@@ -14,9 +14,11 @@
 
 .top {
   width: 100%;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
-.bottom {
+.bot {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,6 +27,7 @@
 
 .box {
   width: 483px;
+  height: 200px;
   background-color: #1e4681;
   padding: 19px 19px 26px 26px;
 }
